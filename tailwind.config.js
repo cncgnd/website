@@ -24,8 +24,10 @@ module.exports = {
     extend: {
       colors: {
         border: "hsl(var(--border))",
+        stone:"#E5E5E5",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+        blue: "#0086FF",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
@@ -91,4 +93,4 @@ function addVariablesForColors({ addBase, theme }) {
  
   addBase({
     ":root": newVars,
-  })}
+})}

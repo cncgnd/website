@@ -2,14 +2,14 @@
 #  CNCG Delhi Website                                                                                                                                        
 
 ### Welcome to the CNCG Delhi website repository!
- ###### This website serves as a platform to provide information about the activities, events, and initiatives undertaken by the Computer and Networking Community Group (CNCG) in Delhi.
+ ##### This website serves as a platform to provide information about the activities, events, and initiatives undertaken by the Computer and Networking Community Group (CNCG) in Delhi.
 ---
 ### Table of Contents
 * [Introduction](#introduction)
 * [Features](#features)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing] (./contribution.md)
+* [Contributing](#contribution)
 <!-- License -->
 ---
 ## Introduction  <a name="introduction"></a>
@@ -26,9 +26,10 @@ To deploy the CNCG Delhi website locally, follow these steps:
 * Clone the repository: git clone https://github.com/cncgnd/website.git
 * Navigate to the project directory: cd website
 * Install dependencies: npm install
-* Start the development server: npm start
+* Start the development server: npm run dev
 ## Usage <a name="usage"></a>
 The CNCG Delhi website is designed to be user-friendly. Simply navigate through the menu options to explore different sections of the website. You can register for membership, browse upcoming events, access resources, and engage with the community through forums.
 
-## Contributing
+## Contributing <a name="contribution"></a>
 We welcome contributions from the community to improve the CNCG Delhi website. If you find any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request. Please adhere to our code of conduct when contributing.
+For contribution guidelines, please refer to the [Contribution Guide](./contribution.md).

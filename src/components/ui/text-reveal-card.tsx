@@ -68,7 +68,7 @@ export const TextRevealCard = ({
       ref={cardRef}
       className={cn(
         "bg-[#1d1c20] border border-white/[0.08] w-[40rem] rounded-lg p-8 relative overflow-hidden",
-        className
+        className,
       )}
     >
       {children}

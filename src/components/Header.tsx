@@ -10,7 +10,7 @@ export const Header = () => {
             className="flex items-center space-x-2 rtl:space-x-reverse"
           >
             <img
-              src="/logo.jpg"
+              src="./logo.jpg"
               alt="Logo"
               width={80}
               height={80}

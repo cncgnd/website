@@ -16,7 +16,7 @@ export const Home = () => {
         <div className="w-1/3">
           <TextGenerateEffect
             className="mt-[300px]"
-            words="&quot;Dev isn't just about breaking down silos; it's about breaking down barriers, fostering collaboration, and enabling teams to build and deliver amazing things together.&quot;"
+            words="&quot;DevOPs isn't just about breaking down silos; it's about breaking down barriers, fostering collaboration, and enabling teams to build and deliver amazing things together.&quot;"
           ></TextGenerateEffect>
         </div>
       </div>

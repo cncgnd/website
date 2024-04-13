@@ -2,11 +2,12 @@ import { Header } from "../components/Header";
 
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { AboutUs } from "./AboutUs";
-import { PreviousTalks } from "./PreviousTalks";
+import { Events } from "./Events";
 import { Stats } from "./Stats";
 import { Sponsors } from "./Sponsors";
 import { Developers } from "./Developers";
 import { Footer } from "@/components/Footer";
+import { Team } from "./Team";
 
 export const Home = () => {
   return (
@@ -24,13 +25,16 @@ export const Home = () => {
         <AboutUs />
       </div>
       <div>
-        <PreviousTalks />
+        <Events />
       </div>
       <div>
         <Stats />
       </div>
       <div>
         <Sponsors />
+      </div>
+      <div>
+        <Team></Team>
       </div>
       <div>
         <Developers />

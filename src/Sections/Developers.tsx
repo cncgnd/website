@@ -11,7 +11,7 @@ export const Developers = () => {
     },
     {
       name: "Sanchit Kathpalia",
-      linkedin: "https://linkedin.com/in/sanchit-khthpalia-a841b5252",
+      linkedin: "https://www.linkedin.com/in/sanchit-khthpalia-a841b5252/",
       twitter: "https://twitter.com/khthpalia",
       github: "https://github.com/sanchitkhthpalia",
       imageUrl: "./sanchit-img.jpg",

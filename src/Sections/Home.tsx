@@ -8,13 +8,14 @@ import { Sponsors } from "./Sponsors";
 import { Developers } from "./Developers";
 import { Footer } from "@/components/Footer";
 import { Team } from "./Team";
+import { ScrollToTopButton } from "@/components/ScrollToTopButton";
 
 export const Home = () => {
   return (
     <div className="h-full w-screen flex flex-col">
       <Header></Header>
       <div
-        className="justify-center items-center flex h-screen pb-[300px]"
+        className="justify-center items-center flex h-screen pb-[300px] relative"
         style={{
           backgroundImage:
             'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Home-image.jpg")',
@@ -47,6 +48,8 @@ export const Home = () => {
         <Developers />
       </div>
       <Footer></Footer>
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
+    
   );
 };

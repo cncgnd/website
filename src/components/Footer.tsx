@@ -2,12 +2,12 @@ import { Button } from "./ui/moving-border";
 import { Link } from 'react-router-dom';
 export const Footer = () => {
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800">
+    <footer className="p-2 bg-white sm:p-6 dark:bg-gray-800">
     <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
-            <div className="mb-6 md:mb-0 flex flex-col">
+            <div className=" md:mb-0 flex flex-col">
                 <a href="/" className="flex items-center">
-                    <img src="./logo.jpg" className="mr-3 h-8" alt="Logo" />
+                    <img src="./logo.jpg" className="mr-1" alt="Logo" width={90} height={90}/>
                     <span className="self-center text-2xl font-bold whitespace-nowrap">CNCF NEW DELHI</span>
                 </a>
                 <div className="mt-20">

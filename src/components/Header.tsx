@@ -26,7 +26,6 @@ export const Header = () => {
             />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white flex flex-col">
               <p>CNCG New Delhi</p>
-              Community
             </span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -47,18 +46,18 @@ export const Header = () => {
               </li>
               <li>
                 <button
-                onClick={(e) => scrollToComponent('team', e)}
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Team
-                </button>
-              </li>
-              <li>
-                <button
                   onClick={(e) => scrollToComponent('events', e)}
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Events
+                </button>
+              </li>
+              <li>
+                <button
+                onClick={(e) => scrollToComponent('team', e)}
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >
+                  Team
                 </button>
               </li>
               <li>

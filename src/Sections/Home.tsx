@@ -11,9 +11,9 @@ import { Team } from "./Team";
 
 export const Home = () => {
   return (
-    <div className="h-screen w-screen bg-black flex flex-col">
+    <div className="h-full w-screen flex flex-col" >
       <Header></Header>
-      <div className="justify-center items-center h-full flex flex-col">
+      <div className="justify-center items-center flex h-screen pb-[300px]" style={{backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Home-image.jpg")', backgroundPosition: 'center'}}>
         <div className="w-1/3">
           <TextGenerateEffect
             className="mt-[300px]"
@@ -24,7 +24,7 @@ export const Home = () => {
       <div>
         <AboutUs />
       </div>
-      <div>
+      <div >
         <Events />
       </div>
       <div>

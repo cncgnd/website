@@ -2,7 +2,7 @@
 #  CNCG Delhi Website                                                                                                                                        
 
 ### Welcome to the CNCG Delhi website repository!
- ##### This website serves as a platform to provide information about the activities, events, and initiatives undertaken by the Computer and Networking Community Group (CNCG) in Delhi.
+ ##### This website serves as a platform to provide information about the activities, events, and initiatives undertaken by Cloud Native Community Groups (CNCG) in New Delhi.
 ---
 ### Table of Contents
 * [Introduction](#introduction)

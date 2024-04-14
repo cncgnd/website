@@ -25,7 +25,8 @@ To set up the CNCG Delhi website locally, following are the steps:
 
 * Clone the repository
 `git clone https://github.com/cncgnd/website.git`
-* Navigate to the project directory: cd website
+* Navigate to the project directory: 
+`cd website`
 * Install dependencies: 
 `npm install`
 * Start the development server: npm run dev

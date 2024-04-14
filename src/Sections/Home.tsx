@@ -32,7 +32,7 @@ export const Home = () => {
         </div>
         <div className="flex items-center justify-center">
           <Link to="https://www.cncf.io/all-cncf/">
-            <button className="bg-pink font-bold text-white p-5 shadow-lg rounded-2xl mt-[300px]">
+            <button className="bg-pink font-bold text-white p-5 shadow-lg rounded-2xl mt-[200px]">
               Join Us
             </button>
           </Link>

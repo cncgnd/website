@@ -29,7 +29,8 @@ To set up the CNCG Delhi website locally, following are the steps:
 `cd website`
 * Install dependencies: 
 `npm install`
-* Start the development server: npm run dev
+* Start the development server: 
+ `npm run dev`
 ## Usage <a name="usage"></a>
 The CNCG Delhi website is designed to be user-friendly. Simply navigate through the menu options to explore different sections of the website. You can register for membership, browse upcoming events, access resources, and engage with the community through forums.
 

@@ -1,4 +1,5 @@
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { Link } from "react-router-dom";
 
 export const Developers = () => {
   const items = [
@@ -23,6 +24,13 @@ export const Developers = () => {
       github: "https://github.com/Saksham1387",
       imageUrl: "./saksham-img.jpg",
     },
+    {
+      name: "Daksh P. Jain",
+      linkedin: "https://linkedin.com/in/daksh777",
+      twitter: "https://twitter.com/0xdpj",
+      github: "https://github.com/daksh777",
+      imageUrl: "./daksh-img.jpg",
+    },
   ];
   return (
     <div className="flex flex-col items-center justify-center bg-black w-screen h-screen">
@@ -39,6 +47,13 @@ export const Developers = () => {
             className="my-custom-class"
             image="/"
           ></InfiniteMovingCards>
+        </div>
+        <div className="flex items-center justify-center mt-20">
+          <Link to="https://github.com/cncgnd">
+            <button className="bg-pink rounded-xl p-4 text-white font-bold transition duration-300 ease-in-out hover:bg-opacity-80 hover:text-opacity-80">
+              Want to Contribute ?
+            </button>
+          </Link>
         </div>
       </div>
     </div>

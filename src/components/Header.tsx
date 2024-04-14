@@ -39,7 +39,7 @@ export const Header = () => {
             </span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-1 rtl:space-x-reverse font-bold">
-            <Button onClick={handleMailClick} className="bg-pink">Contact Us</Button>
+            <Button onClick={handleMailClick} className="bg-pink transition duration-300 ease-in-out hover:text-opacity-80 hover:mix-blend-darken-10">Contact Us</Button>
           </div>
           <div
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"

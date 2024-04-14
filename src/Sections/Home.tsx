@@ -50,6 +50,5 @@ export const Home = () => {
       <Footer></Footer>
       <ScrollToTopButton></ScrollToTopButton>
     </div>
-    
   );
 };

@@ -16,13 +16,16 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: 18
 
       - name: Install Dependencies
         run: npm install
 
       - name: Build
         run: npm run build
+        
+      - name: Install gh-pages
+        run: npm install gh-pages --save-dev
 
       - name: Deploy to GitHub Pages
         run: npx gh-pages -d dist

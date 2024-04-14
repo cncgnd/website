@@ -10,7 +10,7 @@ import { useRef } from "react";
 import { cn } from "@/lib/cn";
 
 export function Button({
-  borderRadius = "1.75rem",
+  borderRadius = "0.5rem",
   children,
   as: Component = "button",
   containerClassName,
@@ -46,7 +46,7 @@ export function Button({
         <MovingBorder duration={duration} rx="30%" ry="30%">
           <div
             className={cn(
-              "h-20 w-20 opacity-[0.8] bg-[radial-gradient(var(--blue-500)_40%,transparent_60%)]",
+              "h-20 w-20",
               borderClassName,
             )}
           />
@@ -55,7 +55,7 @@ export function Button({
 
       <div
         className={cn(
-          "relative bg-white-900/[0.8] border border-slate-800 backdrop-blur-xl text-black flex items-center justify-center w-full h-full text-sm antialiased",
+          "relative bg-white-900/[0.8] text-white flex items-center justify-center w-full h-full text-sm antialiased",
           className,
         )}
         style={{

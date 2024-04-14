@@ -14,18 +14,23 @@ export const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className=" md:mb-0 flex flex-col">
             <a href="/" className="flex items-center">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap mr-3">
+                CNCF New Delhi is a part of 
+              </span>
               <img
-                src="./logo.jpg"
+                src="./cncf-icon-color.png"
                 className="mr-1"
                 alt="Logo"
                 width={90}
                 height={90}
               />
-              <span className="self-center text-2xl font-bold whitespace-nowrap">
-                CNCF NEW DELHI
-              </span>
+              
             </a>
-            <div className="mt-20">
+            <div className="mt-16 flex flex-col">
+              <Link to="https://community.cncf.io/new-delhi/">
+                <Button className="bg-pink font-bold">Join Now</Button>
+              </Link>
+              <br />
               <Link to="https://www.cncf.io/all-cncf/">
                 <Button className="bg-pink font-bold">All CNCF Sites</Button>
               </Link>

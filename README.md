@@ -21,7 +21,7 @@ We are the New Delhi chapter of the Cloud Native Community Group (CNCG), operati
 * Community Forums: Engage with fellow members, ask questions, and participate in discussions related to computer and networking technologies.
 * Membership Registration: Join CNCG Delhi community by registering through the website.
 ##  Installation <a name="installation"></a>
-To deploy the CNCG Delhi website locally, follow these steps:
+To set up the CNCG Delhi website locally, following are the steps:
 
 * Clone the repository: git clone https://github.com/cncgnd/website.git
 * Navigate to the project directory: cd website

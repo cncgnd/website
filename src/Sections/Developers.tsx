@@ -9,6 +9,7 @@ export const Developers = () => {
       twitter: "https://twitter.com/arujjval",
       github: "https://github.com/arujjval",
       imageUrl: "./arujjwal-img.jpg",
+      role: "Developer",
     },
     {
       name: "Sanchit Kathpalia",
@@ -16,6 +17,7 @@ export const Developers = () => {
       twitter: "https://twitter.com/khthpalia",
       github: "https://github.com/sanchitkhthpalia",
       imageUrl: "./sanchit-img.jpg",
+      role: "Developer",
     },
     {
       name: "Saksham Chaudhary",
@@ -23,6 +25,7 @@ export const Developers = () => {
       twitter: "https://twitter.com/Saksham37718116",
       github: "https://github.com/Saksham1387",
       imageUrl: "./saksham-img.jpg",
+      role: "Developer",
     },
     {
       name: "Daksh P. Jain",
@@ -30,12 +33,13 @@ export const Developers = () => {
       twitter: "https://twitter.com/0xdpj",
       github: "https://github.com/daksh777",
       imageUrl: "./daksh-img.jpg",
+      role: "Designer",
     },
   ];
   return (
     <div className="flex flex-col items-center justify-center bg-black w-screen h-screen">
       <div>
-        <h2 className="text-white text-3xl font-bold text-center mb-10">
+        <h2 className="text-white text-3xl font-bold text-center mb-20">
           Developers
         </h2>
         <div className="mt-10">

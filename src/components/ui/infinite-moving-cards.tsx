@@ -13,9 +13,10 @@ export const InfiniteMovingCards = ({
 }: {
   items: {
     name: string;
-    linkedin: string;
-    twitter: string;
-    github: string;
+    role: string;
+    linkedin?: string;
+    twitter?: string;
+    github?: string;
     imageUrl: string;
   }[];
   direction?: "left" | "right";
@@ -108,27 +109,36 @@ export const InfiniteMovingCards = ({
                 <span className="leading-[1.6] text-gray-700 font-bold text-xl">
                   {item.name}
                 </span>
-                <a
-                  className="leading-[1.6] text-gray-700 text-lg hover:text-blue"
-                  href={item.linkedin}
-                >
-                  <FontAwesomeIcon icon={faLinkedin} className="mr-2" />
-                  LinkedIn
-                </a>
-                <a
+                <span className="leading-[1.6] text-gray-500 text-sm mb-5">
+                  {item.role}
+                </span>
+
+                {item.linkedin && (
+                  <a
+                    className="leading-[1.6] text-gray-700 text-lg hover:text-blue"
+                    href={item.linkedin}
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} className="mr-2" />
+                    LinkedIn
+                  </a>
+                )}
+                {item.twitter && (<a
                   className="leading-[1.6] text-gray-700 text-lg hover:text-blue"
                   href={item.twitter}
                 >
                   <FontAwesomeIcon icon={faTwitter} className="mr-2" />
                   Twitter
-                </a>
-                <a
+                </a>)}
+
+                {item.github && (<a
                   className="leading-[1.6] text-gray-700 text-lg hover:text-blue"
                   href={item.github}
                 >
                   <FontAwesomeIcon icon={faGithub} className="mr-2" />
                   GitHub
                 </a>
+                )}
+                
               </div>
             </blockquote>
           </li>

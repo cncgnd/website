@@ -33,5 +33,5 @@ To set up the CNCG Delhi website locally, following are the steps:
 The CNCG Delhi website is designed to be user-friendly. Simply navigate through the menu options to explore different sections of the website. You can register for membership, browse upcoming events, access resources, and engage with the community through forums.
 
 ## Contributing <a name="contribution"></a>
-We welcome contributions from the community to improve the CNCG Delhi website. If you find any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request. Please adhere to our code of conduct when contributing.
+We welcome contributions from the community to improve the CNCG Delhi website. If you find any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request. Please adhere to [CNCF code of conduct](https://www.cncf.io/conduct/) when contributing.
 For contribution guidelines, please refer to the [Contribution Guide](./contribution.md).

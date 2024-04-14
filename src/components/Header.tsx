@@ -1,6 +1,8 @@
 import { Button } from "./ui/moving-border";
 
 export const Header = () => {
+  const email = 'cncgnewdelhi@gmail.com';
+
   const scrollToComponent = (
     id: string,
     event: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>
@@ -10,6 +12,11 @@ export const Header = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+  };
+
+  const handleMailClick = () => {
+    const mailtoLink = `mailto:${email}`;
+    window.location.href = mailtoLink;
   };
 
   return (
@@ -32,7 +39,7 @@ export const Header = () => {
             </span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-1 rtl:space-x-reverse font-bold">
-            <Button className="bg-pink">Contact Us</Button>
+            <Button onClick={handleMailClick} className="bg-pink">Contact Us</Button>
           </div>
           <div
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"

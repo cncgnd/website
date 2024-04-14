@@ -4,13 +4,16 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { AboutUs } from "./AboutUs";
 import { Events } from "./Events";
 import { Stats } from "./Stats";
-import { Sponsors } from "./Sponsors";
+
 import { Developers } from "./Developers";
 import { Footer } from "@/components/Footer";
 import { Team } from "./Team";
+
+import { Sponsors } from "./Sponsors";
 import { ScrollToTopButton } from "@/components/ScrollToTopButton";
 import { Talks } from "./Talks";
 import { Link } from "react-router-dom";
+
 
 export const Home = () => {
   return (
@@ -48,7 +51,7 @@ export const Home = () => {
         <Stats />
       </div>
       <div>
-        <Sponsors />
+         <Sponsors/>
       </div>
       <div>
         <Talks />

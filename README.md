@@ -13,7 +13,7 @@
 <!-- License -->
 ---
 ## Introduction  <a name="introduction"></a>
-The CNCG Delhi website aims to serve as a central hub for members and enthusiasts of the computer and networking community in Delhi. Through this website, we aim to provide updates on events, workshops, and other relevant activities organized by CNCG Delhi.
+We are the New Delhi chapter of the Cloud Native Community Group (CNCG), operating under the [Cloud Native Computing Foundation (CNCF).](http://cncf.io/) Our focus is on knowledge sharing and exploring the potential of cloud native technologies. Through our meetups, educational sessions, and practical activities, we aim to empower individuals in navigating the cloud native ecosystem. We are dedicated to hosting at least one meetup every month and take pride in being recognized as the leading CNCG community worldwide. We prioritize creating an inclusive learning environment, adhering to the [CNCF Code of Conduct](https://www.cncf.io/conduct/) to ensure everyone feels welcome and respected.
 
 ## Features <a name="features"></a>
 * Event Calendar: Stay updated with upcoming events, workshops, and meetups organized by CNCG Delhi.

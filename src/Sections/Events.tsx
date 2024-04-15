@@ -2,10 +2,10 @@ import { HoverEffect } from "@/components/ui/card-hover-effect";
 
 export const Events = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-black w-screen h-screen">
+    <div className="flex flex-col items-center justify-center bg-black w-screen h-full">
       <div>
         <h2
-          className="text-white text-3xl font-bold mb-4 text-center"
+          className="text-white text-3xl font-bold mb-4 text-center mt-16"
           id="events"
         >
           Our Events

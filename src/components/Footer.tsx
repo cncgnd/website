@@ -8,20 +8,20 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Footer = () => {
   return (
-    <footer className="p-2 bg-white sm:p-6 dark:bg-gray-800">
-      <div className="mx-auto max-w-screen-xl">
+    <footer className="p-2 bg-white sm:p-6 dark:bg-gray-800 ">
+      <div className="mx-auto max-w-screen-xl w-screen">
         <div className="md:flex md:justify-between">
           <div className=" md:mb-0 flex flex-row mt-2">
             <div className="flex flex-col ">
               <div>
                 <a href="https://www.cncf.io/" className="flex items-center">
-                  <span className="self-center text-2xl font-semibold whitespace-nowrap">
-                    CNCF New Delhi is a part of
+                  <span className="self-center md:text-2xl font-semibold whitespace-nowrap">
+                    CNCG New Delhi is a part of
                   </span>
                 </a>
               </div>
               <div>
-                <a href="https://www.cncf.io/">
+                <a href="https://www.cncf.io/" className="">
                   <img
                     src="./cncf-color.png"
                     className="mb-10"
@@ -32,7 +32,7 @@ export const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="ml-20 flex flex-col">
+            <div className="md:ml-20 flex flex-col">
               <Link to="https://community.cncf.io/new-delhi/">
                 <button className="bg-pink font-bold text-white p-4 px-9 rounded-xl">
                   Join Now

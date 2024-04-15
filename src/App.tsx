@@ -1,15 +1,15 @@
-import './App.css'
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home } from './Sections/Home';
-
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./Sections/Home";
+import { HashRouter } from "react-router-dom";
 function App() {
   return (
-    <BrowserRouter>
-     <Routes>
-      <Route path="/" element={<Home />} />
-     </Routes>
-    </BrowserRouter>
-  )
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </HashRouter>
+  );
 }
 
-export default App
+export default App;

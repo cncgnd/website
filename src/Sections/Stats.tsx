@@ -43,11 +43,13 @@ export const Stats = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center bg-black w-screen min-h-screen"
+      className="flex flex-col items-center justify-center bg-black w-screen h-full"
       ref={ref}
     >
-      <h2 className="text-white text-3xl font-bold mb-16  mt-10">Stats</h2>
-      <div className="flex md:flex-row flex-col justify-between w-full max-w-[1200px] px-5 md:px-20 py-5">
+      <h2 className="text-white text-3xl font-bold mb-16 mr-5 mt-[150px]">
+        Stats
+      </h2>
+      <div className="flex flex-row justify-between w-full max-w-[1200px] px-5 md:px-20 py-5">
         {titles.map((title, index) => (
           <Stat title={title} count={count[index]} />
         ))}

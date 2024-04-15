@@ -20,7 +20,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  py-10 gap-x-4 gap-y-2",
+        "grid grid-cols-2 md:grid-cols-2  lg:grid-cols-4  py-10 gap-x-4 gap-y-2",
         className
       )}
     >
@@ -79,10 +79,10 @@ export const Card = ({
   return (
     <motion.div
       className={cn(
-        "rounded-2xl h-full w-full p-4  overflow-hidden bg-neutral-50  border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+        "rounded-2xl p-4 overflow-hidden bg-neutral-50  border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20 w-[160px] h-[290px] sm:w-[250px] sm:h-[390px]",
         className
       )}
-      style={{ width: "250px", height: "390px" }}
+      // style={{ width: "250px", height: "390px" }}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={variants}
@@ -93,9 +93,7 @@ export const Card = ({
         <motion.img
           src={imageUrl}
           alt="Card Image"
-          className="mx-auto mb-4 rounded-xl"
-          width={250}
-          height={250}
+          className="mx-auto md:mb-4 rounded-xl md:w-[250px] md:h-[220px]"
         />
         <div className="p-3">{children}</div>
       </div>
@@ -110,7 +108,7 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h4 className={cn("text-black tracking-wide font-light", className)}>
+    <h4 className={cn("text-black tracking-wide font-light md:text-sm sm:text-xs", className)}>
       {children}
     </h4>
   );
@@ -122,7 +120,7 @@ export const CardButton = ({
   children: React.ReactNode;
 }) => {
   return (
-    <a className={cn("text-pink font-bold tracking-wide mt-4", className)}>
+    <a className={cn("text-pink font-bold tracking-wide text-sm", className)}>
       <span className="ml-1">&#8594;</span> View Details
     </a>
   );
@@ -138,7 +136,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "mt-2 text-black tracking-wide leading-relaxed text-md font-bold",
+        "md:mt-2 text-black tracking-wide leading-relaxed text-[12px] md:text-lg font-bold",
         className
       )}
     >

@@ -19,6 +19,7 @@ export const Home = () => {
   return (
     <div className="h-full w-screen flex flex-col">
       <Header></Header>
+
       <div
         className="justify-center items-center flex h-screen pb-[300px] relative flex-col"
         style={{
@@ -33,15 +34,18 @@ export const Home = () => {
             words="&quot;DevOps isn't just about breaking down silos; it's about breaking down barriers, fostering collaboration, and enabling teams to build and deliver amazing things together.&quot;"
           ></TextGenerateEffect>
         </div>
-        <div className="flex items-center justify-center">
-          <Link to="https://www.cncf.io/all-cncf/">
+
+        <div className="flex items-center justify-center ">
+          <Link to="https://community.cncf.io/new-delhi/"> 
             <button className="bg-pink font-bold text-white p-5 shadow-lg rounded-2xl mt-[200px]">
               Join Us
             </button>
           </Link>
         </div>
+
       </div>
-      <div>
+
+      <div >
         <AboutUs />
       </div>
       <div>
@@ -62,8 +66,10 @@ export const Home = () => {
       <div>
         <Developers />
       </div>
+     
       <Footer></Footer>
       <ScrollToTopButton></ScrollToTopButton>
+      
     </div>
   );
 };

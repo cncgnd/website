@@ -52,7 +52,7 @@ export const Developers = () => {
             image="/"
           ></InfiniteMovingCards>
         </div>
-        <div className="flex items-center justify-center mt-20">
+        <div className="flex items-center justify-center md:mt-20">
           <Link to="https://github.com/cncgnd">
             <button className="bg-pink rounded-xl p-4 text-white font-bold transition duration-300 ease-in-out hover:bg-opacity-80 hover:text-opacity-80">
               Want to Contribute ?

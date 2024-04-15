@@ -4,14 +4,14 @@ export const AboutUs = () => {
       id="aboutus"
       className="flex flex-col items-center justify-center bg-black w-screen min-h-screen"
     >
-      <div className="md:mt-5 ">
-        <h2 className="text-white text-3xl font-bold mb-8">About Us</h2>
+      <div className="mt-20 md:mt-0">
+        <h2 className="text-white text-3xl font-bold md:mb-8 ">About Us</h2>
         <div className="p-1 rounded-lg shadow-lg"></div>
       </div>
       <div className="flex flex-col items-center mt-8 px-4 lg:px-8">
         <div className="flex flex-wrap items-center justify-between gap-x-12 gap-y-8 w-full lg:flex-nowrap">
           <div className="flex-1">
-            <h2 className="  text-2xl mb-4 text-center text-neutral-200">
+            <h2 className="text-2xl mb-4 text-center text-neutral-200">
               Welcome to the Cloud Native Community Group - New Delhi. We are
               the New Delhi chapter of the Cloud Native Community Groups (CNCG),
               operating under the{" "}

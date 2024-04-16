@@ -5,7 +5,7 @@ export const Events = () => {
     <div className="flex flex-col items-center justify-center bg-black w-screen h-full">
       <div>
         <h2
-          className="text-white text-3xl font-bold mb-4 text-center mt-16"
+          className="text-white text-3xl font-bold mb-4 text-center mt-2"
           id="events"
         >
           Our Events
@@ -56,7 +56,7 @@ export const Events = () => {
                 imageurl: "./Bevy poster.jpg",
               },
               {
-                title: "Online Event (virtual)",
+                title: "Online Event",
                 description:
                   "Cloud Native Connect: Unleashing the power of CNCF",
                 link: "https://community.cncf.io/events/details/cncf-new-delhi-presents-cloud-native-connect-unleashing-the-power-of-cncf/",

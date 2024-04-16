@@ -8,10 +8,10 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Footer = () => {
   return (
-    <footer className="p-2 bg-white sm:p-6 dark:bg-gray-800 ">
+    <footer className="p-2 bg-white sm:p-6 dark:bg-gray-800">
       <div className="mx-auto max-w-screen-xl w-screen">
         <div className="md:flex md:justify-between">
-          <div className=" md:mb-0 flex flex-row mt-2">
+          <div className="md:mb-0 flex flex-col md:flex-row mt-2">
             <div className="flex flex-col ">
               <div>
                 <a href="https://www.cncf.io/" className="flex items-center">
@@ -47,8 +47,8 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
+          <div className="grid grid-cols-3 gap-6 md:gap-8 sm:gap-6 sm:grid-cols-3">
+            <div className="md:mt-0 mt-3">
               <ul className="text-gray-600 dark:text-gray-400 mt-11">
                 <li className="mb-4">
                   <a
@@ -65,15 +65,16 @@ export const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
-              <h2 className=" text-sm font-semibold text-gray-900 uppercase dark:text-white ml-10">
+
+            <div className="md:mt-0 mt-3 md:mr-0">
+              <h2 className=" text-sm font-semibold text-gray-900 uppercase dark:text-white md:ml-10">
                 Resources
               </h2>
-              <ul className="text-gray-600 dark:text-gray-400 ml-5 mt-5">
+              <ul className="text-gray-600 dark:text-gray-400 mt-5 ">
                 <li className="mb-4">
                   <a
                     href="https://m.youtube.com/@cncf/search?query=Kubecon"
-                    className="hover:underline "
+                    className="hover:underline"
                   >
                     Contribute.cncf.io
                   </a>
@@ -96,7 +97,8 @@ export const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
+
+            <div className="md:mt-0 mt-3">
               <ul className="text-gray-600 dark:text-gray-400 mt-10">
                 <li className="mb-4">
                   <a

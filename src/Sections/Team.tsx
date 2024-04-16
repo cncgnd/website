@@ -35,7 +35,7 @@ export const Team = () => {
       imageUrl: "./Harsh.jpeg",
       linkedin: "https://www.linkedin.com/in/its-harsshhh/",
       twitter: "https://twitter.com/Choley_Bhature",
-      role: "Organizer",
+      role: "Design Lead",
     },
   ];
   return (

@@ -1,5 +1,5 @@
 .card {
-    width: 300px;
+    width: 250px;
     height: 200px;
     background-color:white;
     border-radius: 10px;
@@ -30,5 +30,13 @@
     .sm\:grid-cols-1 {
       grid-template-columns: 1fr;
     }
+  }
+  .card {
+    transition: opacity 0.5s ease;
+    opacity: 0;
+  }
+  
+  .appear {
+    opacity: 1;
   }
   

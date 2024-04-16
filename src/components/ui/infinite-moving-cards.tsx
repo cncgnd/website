@@ -79,21 +79,21 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20 max-w-[1400px] overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_5%,white_90%,transparent)]",
+        "scroller relative z-20 max-w-[350px] overflow-hidden md:[mask-image:linear-gradient(to_right,transparent,white_5%,white_90%,transparent)] md:max-w-[1400px] lg:max-w-[1400px] xl:max-w-[1400px] ",
         className
       )}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
+          "flex shrink-0 gap-4 md:py-4 md:w-max flex-nowrap w-min md:h-[350px]",
           start && "animate-scroll",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item) => (
           <li
-            className="bg-white p-5 flex flex-col items-center justify-center mb-5 rounded-2xl py-6 relative w-[300px]"
+            className="bg-white md:p-5 p-10 flex flex-col items-center justify-center mb-5 rounded-2xl py-6 relative w-100px md:w-[300px]"
             key={item.name}
           >
             <div className="rounded-full overflow-hidden w-20 h-20 flex-shrink-0 flex justify-center items-center ml-[10px]">
@@ -105,17 +105,18 @@ export const InfiniteMovingCards = ({
             </div>
 
             <blockquote className="text-center">
-              <div className="relative z-20 mt-6 flex flex-col items-center justify-center mb-5">
-                <span className="leading-[1.6] text-gray-700 font-bold text-xl">
+
+              <div className="md:relative md:z-20 md:mt-6 flex flex-col items-center justify-center md:mb-5">
+                <span className="leading-[1.6] text-gray-700 font-bold md:text-xl text-sm">
                   {item.name}
                 </span>
-                <span className="leading-[1.6] text-gray-500 text-sm mb-5">
+                <span className="leading-[1.6] text-gray-500 md:text-sm md:mb-5">
                   {item.role}
                 </span>
 
                 {item.linkedin && (
                   <a
-                    className="leading-[1.6] text-gray-700 text-lg hover:text-blue"
+                    className="leading-[1.6] text-gray-700 md:text-lg hover:text-blue"
                     href={item.linkedin}
                   >
                     <FontAwesomeIcon icon={faLinkedin} className="mr-2" />
@@ -123,7 +124,7 @@ export const InfiniteMovingCards = ({
                   </a>
                 )}
                 {item.twitter && (<a
-                  className="leading-[1.6] text-gray-700 text-lg hover:text-blue"
+                  className="leading-[1.6] text-gray-700 md:text-lg hover:text-blue"
                   href={item.twitter}
                 >
                   <FontAwesomeIcon icon={faTwitter} className="mr-2" />
@@ -131,7 +132,7 @@ export const InfiniteMovingCards = ({
                 </a>)}
 
                 {item.github && (<a
-                  className="leading-[1.6] text-gray-700 text-lg hover:text-blue"
+                  className="leading-[1.6] text-gray-700 md:text-lg hover:text-blue"
                   href={item.github}
                 >
                   <FontAwesomeIcon icon={faGithub} className="mr-2" />
@@ -147,3 +148,4 @@ export const InfiniteMovingCards = ({
     </div>
   );
 };
+

@@ -35,6 +35,22 @@ export const Developers = () => {
       imageUrl: "./daksh-img.jpg",
       role: "Designer",
     },
+    {
+      name: "Avantika Sharma",
+      linkedin: "https://www.linkedin.com/in/avantika-sharma-a65b17250/",
+      twitter: "https://x.com/Avantika230703?t=TDlZBwUMdGtK1jJXDR0Bpg&s=09",
+      github: "https://github.com/AvantikaSharma2307",
+      imageUrl: "./avantika-img.jpg",
+      role: "Developer",
+    },
+    {
+      name: "Harshit Rawat",
+      linkedin: "https://www.linkedin.com/in/harshit-rawat-0a6944274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitter: "https://x.com/harshit_rwt?t=ja0bPAy3eDRRpLvJntqwbw&s=09",
+      github: "https://github.com/itsharshitrwt",
+      imageUrl: "./harshit-img.jpg",
+      role: "Developer",
+    },
   ];
   return (
     <div className="flex flex-col items-center justify-center bg-black w-screen h-screen">
@@ -52,7 +68,7 @@ export const Developers = () => {
             image="/"
           ></InfiniteMovingCards>
         </div>
-        <div className="flex items-center justify-center md:mt-20">
+        <div className="flex items-center justify-center mt-10 md:mt-20">
           <Link to="https://github.com/cncgnd">
             <button className="bg-pink rounded-xl p-4 text-white font-bold transition duration-300 ease-in-out hover:bg-opacity-80 hover:text-opacity-80">
               Want to Contribute ?

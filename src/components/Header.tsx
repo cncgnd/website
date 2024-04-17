@@ -38,19 +38,20 @@ export const Header = () => {
 
           <a
             href="/"
-            className="flex items-center space-x-2 rtl:space-x-reverse"
+            className="flex items-center space-x-22 rtl:space-x-reverse md:mr-0 mr-12"
           >
             <img
               src="./logo.jpg"
               alt="Logo"
               width={90}
               height={90}
-              className="rounded-full"
+              className="rounded-full md:mr-0 mr-7"
             />
-            <span className="self-center text-xl font-bold whitespace-nowrap dark:text-white flex flex-col">
+            <span className="self-center text-xl text-md font-bold whitespace-nowrap dark:text-white flex flex-col md:mr-0 ">
               <p>CNCG NEW DELHI</p>
             </span>
           </a>
+
           <div
             className={`hidden md:flex md:items-center md:justify-between w-full md:w-auto md:order-1`}
             id="navbar-sticky"

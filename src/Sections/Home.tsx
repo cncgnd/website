@@ -11,7 +11,7 @@ import { Team } from "./Team";
 
 import { Sponsors } from "./Sponsors";
 import { ScrollToTopButton } from "@/components/ScrollToTopButton";
-import { Talks } from "./Talks";
+import Talk from "./Talks";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
@@ -56,7 +56,7 @@ export const Home = () => {
         <Sponsors />
       </div>
       <div>
-        <Talks />
+        <Talk />
       </div>
       <div>
         <Team></Team>

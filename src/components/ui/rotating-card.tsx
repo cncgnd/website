@@ -29,7 +29,7 @@ const RotatingCard = ({imageUrl, description, altText, videoUrl, title} : {
               </div>
               <a
                 href={videoUrl}
-                className="px-6 pt-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125 bg-pink transition duration-300 ease-in-out hover:text-opacity-80"
+                className="px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125 bg-pink transition duration-300 ease-in-out hover:text-opacity-80"
               >
                 Watch Now
               </a>

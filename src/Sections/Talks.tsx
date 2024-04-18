@@ -54,8 +54,8 @@ const Talks = () => {
       id="talks"
       className="flex flex-col items-center justify-center bg-black overflow-hidden"
     >
-      <div>
-        <h2 className="text-white text-3xl font-bold gap-2 mb-20">
+      <div className="mt-20 mb-20">
+        <h2 className="text-white text-3xl font-bold gap-2">
           Previous Talks
         </h2>
       </div>

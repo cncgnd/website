@@ -5,7 +5,7 @@ import tata from "../images/tata 1 mg.png";
 import epam from "../images/epam.png";
 export const Sponsors = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-black w-screen h-full">
+    <div className="flex flex-col items-center justify-center bg-black w-screen">
       <div className="">
         <h2
           className="text-white text-3xl font-bold mb-20 text-center mt-[150px]"

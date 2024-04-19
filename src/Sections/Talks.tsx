@@ -52,13 +52,14 @@ const Talks = () => {
   return (
     <div
       id="talks"
-      className="flex flex-col items-center justify-center bg-black overflow-hidden"
+      className="flex flex-col items-center justify-center bg-black w-screen"
     >
-      <div className="mt-20 mb-20">
-        <h2 className="text-white text-3xl font-bold gap-2">
+      <div>
+        <h2 className="text-white text-3xl font-bold pt-30 pb-10 lg:mt-40 lg:mb-10">
           Previous Talks
         </h2>
       </div>
+
       <div className="relative w-full max-w-5xl overflow-hidden">
         <div className="absolute top-1/2 transform -translate-y-1/2 left-0 z-10">
           <button

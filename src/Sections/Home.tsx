@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
-    <div className="h-full w-screen flex flex-col">
+    <div className="h-full w-screen flex flex-col bg-black">
       <Header></Header>
 
       <div

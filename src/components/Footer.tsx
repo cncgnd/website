@@ -32,7 +32,7 @@ export const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="md:ml-20 flex flex-col">
+            <div className="md:ml-20 flex flex-col ml-28">
               <Link to="https://community.cncf.io/new-delhi/">
                 <button className="bg-pink font-bold text-white p-4 px-9 rounded-xl">
                   Join Now

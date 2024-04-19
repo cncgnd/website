@@ -35,12 +35,12 @@ export const Team = () => {
       imageUrl: "./Harsh.jpeg",
       linkedin: "https://www.linkedin.com/in/its-harsshhh/",
       twitter: "https://twitter.com/Choley_Bhature",
-      role: "Organizer",
+      role: "Design Lead",
     },
   ];
   return (
-    <div id="team" className="flex flex-col items-center justify-center bg-black w-screen h-screen">
-      <div>
+    <div id="team" className="flex flex-col items-center justify-center bg-black w-screen">
+      <div className="mt-20 lg:mt-20">
         <h2 className="text-white text-3xl font-bold text-center mb-20">
           Our Team
         </h2>

@@ -43,10 +43,10 @@ export const Stats = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center bg-black w-screen h-full"
+      className="flex flex-col items-center justify-center bg-black w-screen"
       ref={ref}
     >
-      <h2 className="text-white text-3xl font-bold mb-16 mr-5 mt-[150px]">
+      <h2 className="text-white text-3xl font-bold mb-16 mr-5 mt-20 lg:mt-30">
         Stats
       </h2>
       <div className="flex flex-row justify-between w-full max-w-[1200px] px-5 md:px-20 py-5">

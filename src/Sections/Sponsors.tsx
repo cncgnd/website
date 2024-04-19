@@ -34,7 +34,7 @@ export const Sponsors = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center bg-black w-screen h-full">
+    <div className="flex flex-col items-center justify-center bg-black w-screen">
       <div className="">
         <h2 className="text-white text-3xl font-bold mb-20 text-center mt-20" id="sponsors">Our Sponsors</h2>
         <div className="p-4 rounded-lg shadow-lg grid sm:grid-cols-2 md:grid-cols-4 gap-20 grid-container" ref={sponsorRef}>

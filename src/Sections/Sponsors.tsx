@@ -37,11 +37,11 @@ export const Sponsors = () => {
     <div className="flex flex-col items-center justify-center bg-black w-screen h-full">
       <div className="">
         <h2 className="text-white text-3xl font-bold mb-20 text-center mt-20" id="sponsors">Our Sponsors</h2>
-        <div className="p-4 rounded-lg shadow-lg grid sm:grid-cols-1 md:grid-cols-4 gap-20" ref={sponsorRef}>
-          <div className={`card ease-in-out ${isVisible ? 'appear' : ''}`}><img src={devtron} className='img pt-12'></img></div>
-          <div className={`card ease-in-out ${isVisible ? 'appear' : ''}`}><img src={microsoft} className='img pt-12'></img></div>
-          <div className={`card ease-in-out ${isVisible ? 'appear' : ''}`}><img src={tata} className='img h-36'></img></div>
-          <div className={`card ease-in-out ${isVisible ? 'appear' : ''}`}><img src={epam}  className='img h-36'></img></div>
+        <div className="p-4 rounded-lg shadow-lg grid sm:grid-cols-2 md:grid-cols-4 gap-20 grid-container" ref={sponsorRef}>
+          <div className={`card ease-in-out ${isVisible ? 'appear' : ''}`}><img src={devtron} className='img md:pt-12'></img></div>
+          <div className={`card ease-in-out ${isVisible ? 'appear' : ''}`}><img src={microsoft} className='img md:pt-12'></img></div>
+          <div className={`card ease-in-out ${isVisible ? 'appear' : ''}`}><img src={tata} className='img h-36 md:pt-4'></img></div>
+          <div className={`card ease-in-out ${isVisible ? 'appear' : ''}`}><img src={epam}  className='img h-36 md:pt-2'></img></div>
         </div>
       </div>
     </div>

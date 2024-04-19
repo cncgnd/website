@@ -53,8 +53,8 @@ export const Developers = () => {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center bg-black w-screen h-screen">
-      <div>
+    <div className="flex flex-col items-center justify-center bg-black w-screen">
+      <div className="mt-20 lg:mt-20">
         <h2 className="text-white text-3xl font-bold text-center mb-20">
           Developers
         </h2>
@@ -68,7 +68,7 @@ export const Developers = () => {
             image="/"
           ></InfiniteMovingCards>
         </div>
-        <div className="flex items-center justify-center mt-10 md:mt-20">
+        <div className="flex items-center justify-center mt-10 mb-10 md:mt-20">
           <Link to="https://github.com/cncgnd">
             <button className="bg-pink rounded-xl p-4 text-white font-bold transition duration-300 ease-in-out hover:bg-opacity-80 hover:text-opacity-80">
               Want to Contribute ?

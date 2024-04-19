@@ -55,7 +55,7 @@ const Talks = () => {
       className="flex flex-col items-center justify-center bg-black w-screen"
     >
       <div>
-        <h2 className="text-white text-3xl font-bold pt-30 pb-10 lg:mt-40 lg:mb-10">
+        <h2 className="text-white text-3xl font-bold pt-30 pb-10 lg:mt-40 lg:mb-10 mt-9">
           Previous Talks
         </h2>
       </div>

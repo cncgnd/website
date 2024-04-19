@@ -38,17 +38,18 @@ export const Header = () => {
 
           <a
             href="/"
-            className="flex items-center space-x-22 rtl:space-x-reverse md:mr-0 mr-12"
+            className="flex items-center space-x-22 rtl:space-x-reverse md:mr-0 mr-9"
           >
             <img
               src="./logo.jpg"
               alt="Logo"
               width={90}
-              height={90}
-              className="rounded-full md:mr-0 mr-7"
+              height={90} 
+              className="md:mr-0 mr-4 sm:mr-0"
+              
             />
-            <span className="self-center text-xl text-md font-bold whitespace-nowrap dark:text-white flex flex-col md:mr-0 ">
-              <p>CNCG NEW DELHI</p>
+            <span className="self-center text-xl text-md font-bold whitespace-nowrap dark:text-white flex flex-col md:mr-0 md:ml-0 ml-1">
+              <p>&nbsp;CNCG NEW DELHI</p>
             </span>
           </a>
 
@@ -101,7 +102,7 @@ export const Header = () => {
           </div>
           <button
             onClick={() => setShowSidebar(!showSidebar)}
-            className="md:hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink p-2"
+            className="md:hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink mr-3"
           >
             {showSidebar ? (
               <svg
@@ -135,7 +136,7 @@ export const Header = () => {
       </nav>
       {showSidebar && (
         <div className="md:hidden fixed inset-0 bg-white dark:bg-gray-900 z-30">
-          <ul className="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 bg-white md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
             <li>
               <button
                 onClick={(e) => {
@@ -194,7 +195,7 @@ export const Header = () => {
           <button onClick={() => setShowSidebar(!showSidebar)}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8 text-black dark:text-white"
+              className="h-8 w-8 text-black dark:text-white mt-3 ml-3"
               viewBox="0 0 20 20"
               fill="currentColor"
             >

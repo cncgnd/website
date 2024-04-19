@@ -4,7 +4,7 @@ import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 
 const items = [
   {
-    imageurl: "public/ashish.JPG",
+    imageurl: "./ashish.JPG",
     title: "Prometheus in Action: Get Started with Monitoring by Ashish Kumar ",
     description:
       "Ashish Kumar demonstrates Prometheus, showcasing its query language, operational ease, and seamless service discovery integration. ",
@@ -12,7 +12,7 @@ const items = [
     altText: "Picture of Ashish Speaking",
   },
   {
-    imageurl: "public/ashtesham.jpeg",
+    imageurl: "./ashtesham.jpeg",
     title: "Message Queues Made Easy with RabbitMQ & Python by Ahtesham Zaidi",
     description:
       "A deep dive into the world of messaging queues, discussing their importance, the role of message brokers, and the transition from traditional approaches to modern, decoupled systems.",
@@ -20,7 +20,7 @@ const items = [
     altText: "Picture of Ashtesham Speaking",
   },
   {
-    imageurl: "public/vinod.jpg",
+    imageurl: "./vinod.jpg",
     title: "Scaling Apps with KEDA by Vinod Kumar",
     description:
       "This session takes a comprehensive look at 'Scaling apps with KEDA' in Kubernetes environments. ",
@@ -28,7 +28,7 @@ const items = [
     altText: "Event Video Thumbnail",
   },
   {
-    imageurl: "public/rakeshsaw.jpeg",
+    imageurl: "./rakeshsaw.jpeg",
     title:
       "Kubernetes Secrets Management using External Secret Operator (ESO) by Rakesh Saw ",
     description:

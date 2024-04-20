@@ -45,10 +45,10 @@ export const Header = () => {
               alt="Logo"
               width={90}
               height={90} 
-              className="md:mr-0 mr-4 sm:mr-0"
+              className="md:mr-0 sm:mr-0"
               
             />
-            <span className="self-center text-xl text-md font-bold whitespace-nowrap dark:text-white flex flex-col md:mr-0 md:ml-0 ml-1">
+            <span className="self-center text-xl text-md font-bold whitespace-nowrap dark:text-white flex flex-col md:mr-0 md:ml-0">
               <p>&nbsp;CNCG NEW DELHI</p>
             </span>
           </a>
